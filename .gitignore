@@ -11,3 +11,5 @@
 .DS_Store
 windows-debug-launcher.nsi.in
 /ant/private/qz.ks
+/.idea
+/build
