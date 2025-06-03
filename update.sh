@@ -3,6 +3,13 @@
 # Exit immediately if any command fails
 set -e
 
+echo "Set the upstream remote to the parent repository..."
+if ! git remote | grep -q "^upstream$"; then
+  git remote add upstream https://github.com/qzind/tray.git
+else
+  echo "Upstream remote already set."
+fi
+
 echo "Fetching updates from upstream master..."
 git fetch upstream master
 
