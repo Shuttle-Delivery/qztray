@@ -25,4 +25,4 @@ git merge upstream/master
 echo "Pushing updated master to origin..."
 git push origin master
 
-echo "✅ Done: Your master branch is now synced with upstream and pushed to origin."
+echo "Done: Your master branch is now synced with upstream and pushed to origin."
